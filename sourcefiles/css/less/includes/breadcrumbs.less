@@ -1,0 +1,29 @@
+.breadcrumbs-container
+{
+	height: 75px;
+	padding: 26px 0 0 0;
+	.breadcrumbs
+	{
+		li::after
+		{
+			content: ">";
+			display: inline-block;
+			margin: 0 0 0 5px;
+		}
+		li
+		{
+			display: inline-block;
+			color: #9dacad;
+			margin: 0 5px 0 0;
+			font-size: 0.916666667rem;
+			a
+			{
+				color: #9dacad;
+			}
+		}
+		li:last-child::after
+		{
+			content: '';
+		}
+	}
+}

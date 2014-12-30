@@ -1,0 +1,155 @@
+extends .layout
+
+block content
+	.banner
+		
+		.wrapper
+			h1
+				|ваша безопасность наша работа
+			.banner-content
+				.circle
+					p
+						|подключение любой камеры<br/> к облаку
+				ul.list1of2
+					li.camera-icon
+						p
+							|IP-камера
+					li.analog-camera
+						p
+							|аналоговая камера
+					li.web-camera
+						p
+							|web-камера
+					li.dvr
+						p
+							|dvr
+				.banner-cloud
+					img(src="img/cloud-banner.png")
+				ul.list1of2
+					li.telephone
+						p
+							|телефон
+					li.pad
+						p
+							|планшет
+					li.notebook
+						p
+							|ноутбук
+					li.computer
+						p
+							|компьютер
+				.circle
+					p
+						|возможность просматривать через любое устройство
+		.overlay
+	.landing
+		.wrapper
+			.remote
+				h1.remote-title
+					|удаленное видеонаблюдение
+				.inner-wrapper
+					.block1of3
+						a(href="#")
+							.overlay
+							img(src="img/appartment.jpg", alt="Квартира")
+							p
+								|квартира
+					.block1of3
+						a(href="#")
+							.overlay
+							img(src="img/work.jpg", alt="Работа")
+							p
+								|работа
+					.block1of3
+						a(href="#")
+							.overlay
+							img(src="img/kids.jpg", alt="Дети")
+							p
+								|дети
+			.inner-wrapper
+				.pluses
+					h2
+						|наши преимущества
+					ul
+						li
+							|Хранение архивных видеозаписей на облачном сервере «Нэт-норд»
+						li
+							|Возможность бесплатного онлайн просмотра с любого устройства 
+						li
+							|Хранение архивных видеозаписей на облачном сервере «Нэт-норд»
+						li
+							|Возможность бесплатного онлайн просмотра с любого устройства
+						li
+							|Хранение архивных видеозаписей на облачном сервере «Нэт-норд»
+				.videospy
+					h2
+						|тестовое видеонаблюдение
+					.inner-wrapper
+						.block1of2
+							h3
+								|подъезд
+							img(src="img/test.jpg", alt="test")
+						.block1of2
+							h3
+								|офис
+							img(src="img/test.jpg", alt="test")
+	.misc
+		.wrapper
+			.feedback-container
+				h2
+					|оставьте заявку на подключение
+				form(action="").feedback
+					.form-wrapper
+						label(for="personaldata")
+							|ФИО
+						input(type="text" placeholder="Иван Петров")#personaldata
+					.form-wrapper
+						label(for="personalphone")
+							|Телефон
+						input(type="text" placeholder="+7 (910) 234-45-45")#personalphone
+					.form-wrapper
+						label(for="personalemail")
+							|E-mail
+						input(type="email" placeholder="somebody@gmail.com")#personalemail
+					.form-wrapper
+						label(for="personalmessage")
+							|Коментарий
+						textarea(placeholder="Системы видеонаблюдения — это основное средство технической безопасности и сбора информации, обладающее возможностью непрерывного мониторинга и контроля охраняемой территории в любое время суток. В современном мире, без")#personalmessage
+					button(type="submit")
+						|отправить
+			.news
+				h2
+					|Новости
+				ul.newslist
+					li
+						time(datetime)
+							|21.08.2014
+						a(href="")
+							|SVI-625M – IP-камера с моторизованным объективом и интеллектуальным подогревом
+					li
+						time(datetime)
+							|21.08.2014
+						a(href="")
+							|SVI-625M – IP-камера с моторизованным объективом и интеллектуальным подогревом
+					li
+						time(datetime)
+							|21.08.2014
+						a(href="")
+							|SVI-625M – IP-камера с моторизованным объективом и интеллектуальным подогревом
+					li
+						time(datetime)
+							|21.08.2014
+						a(href="")
+							|SVI-625M – IP-камера с моторизованным объективом и интеллектуальным подогревом
+					li
+						time(datetime)
+							|21.08.2014
+						a(href="")
+							|SVI-625M – IP-камера с моторизованным объективом и интеллектуальным подогревом
+					li
+						time(datetime)
+							|21.08.2014
+						a(href="")
+							|SVI-625M – IP-камера с моторизованным объективом и интеллектуальным подогревом
+				a(href="#").allnews
+					|все новости

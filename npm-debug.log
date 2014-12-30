@@ -1,0 +1,70 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'install' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.33
+4 warn package.json front-end-NetVision@0.0.0 No description
+5 warn package.json front-end-NetVision@0.0.0 No repository field.
+6 warn package.json front-end-NetVision@0.0.0 No README data
+7 verbose readDependencies using package.json deps
+8 verbose install where, deps [ '/home/leguest/projects/netvision',
+8 verbose install   [ 'grunt',
+8 verbose install     'grunt-contrib-concat',
+8 verbose install     'grunt-contrib-less',
+8 verbose install     'grunt-contrib-uglify',
+8 verbose install     'grunt-contrib-watch',
+8 verbose install     'grunt-contrib-jade' ] ]
+9 info preinstall front-end-NetVision@0.0.0
+10 verbose readDependencies using package.json deps
+11 verbose already installed skipping grunt@~0.4.5 /home/leguest/projects/netvision
+12 verbose already installed skipping grunt-contrib-concat@~0.5.0 /home/leguest/projects/netvision
+13 verbose already installed skipping grunt-contrib-less@^0.11.4 /home/leguest/projects/netvision
+14 verbose already installed skipping grunt-contrib-uglify@~0.6.0 /home/leguest/projects/netvision
+15 verbose already installed skipping grunt-contrib-watch@^0.6.1 /home/leguest/projects/netvision
+16 verbose already installed skipping grunt-contrib-jade@~0.13.0 /home/leguest/projects/netvision
+17 silly resolved []
+18 info build /home/leguest/projects/netvision
+19 verbose linkStuff [ false, false, false, '/home/leguest/projects' ]
+20 info linkStuff front-end-NetVision@0.0.0
+21 verbose linkBins front-end-NetVision@0.0.0
+22 verbose linkMans front-end-NetVision@0.0.0
+23 verbose rebuildBundles front-end-NetVision@0.0.0
+24 verbose rebuildBundles [ '.bin',
+24 verbose rebuildBundles   'grunt',
+24 verbose rebuildBundles   'grunt-cli',
+24 verbose rebuildBundles   'grunt-contrib-concat',
+24 verbose rebuildBundles   'grunt-contrib-jade',
+24 verbose rebuildBundles   'grunt-contrib-less',
+24 verbose rebuildBundles   'grunt-contrib-uglify',
+24 verbose rebuildBundles   'grunt-contrib-watch' ]
+25 verbose rebuild bundle /home/leguest/projects/netvision/node_modules/grunt-cli
+26 info build /home/leguest/projects/netvision/node_modules/grunt-cli
+27 info preinstall grunt-cli@0.1.13
+28 verbose linkStuff [ false,
+28 verbose linkStuff   false,
+28 verbose linkStuff   false,
+28 verbose linkStuff   '/home/leguest/projects/netvision/node_modules' ]
+29 info linkStuff grunt-cli@0.1.13
+30 warn prefer global grunt-cli@0.1.13 should be installed with -g
+31 verbose linkBins grunt-cli@0.1.13
+32 verbose link bins [ { grunt: 'bin/grunt' },
+32 verbose link bins   '/home/leguest/projects/netvision/node_modules/.bin',
+32 verbose link bins   false ]
+33 verbose linkMans grunt-cli@0.1.13
+34 verbose rebuildBundles grunt-cli@0.1.13
+35 verbose rebuildBundles [ '.bin', 'findup-sync', 'nopt', 'resolve' ]
+36 error Error: EACCES, unlink '/home/leguest/projects/netvision/node_modules/.bin/grunt'
+36 error  { [Error: EACCES, unlink '/home/leguest/projects/netvision/node_modules/.bin/grunt']
+36 error   errno: 3,
+36 error   code: 'EACCES',
+36 error   path: '/home/leguest/projects/netvision/node_modules/.bin/grunt' }
+37 error Please try running this command again as root/Administrator.
+38 error System Linux 3.2.0-4-amd64
+39 error command "/usr/local/bin/node" "/usr/local/bin/npm" "install"
+40 error cwd /home/leguest/projects/netvision
+41 error node -v v0.10.33
+42 error npm -v 1.4.28
+43 error path /home/leguest/projects/netvision/node_modules/.bin/grunt
+44 error code EACCES
+45 error errno 3
+46 error stack Error: EACCES, unlink '/home/leguest/projects/netvision/node_modules/.bin/grunt'
+47 verbose exit [ 3, true ]

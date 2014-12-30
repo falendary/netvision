@@ -1,0 +1,240 @@
+extends .layout
+
+block content
+	include includes/subheader
+	include includes/breadcrumbs
+	.workflow
+		.wrapper
+			.catalog
+				.inner-wrap
+					aside.filter
+						form(action="")
+							a(href="#").category
+								|IP КАМЕРЫ
+							a(href="#").category
+								|АНАЛОГОВЫЕ КАМЕРЫ
+							a(href="#").category
+								|WEB-камеры
+							a(href="#").category
+								|DVR
+							.price-picker
+								.hold-slider
+									.slider(data-min="0",data-max="25000")
+									input#from.price-filter-input(type="text", name="amount_from" value="0")
+									input#to.price-filter-input(type="text" name="amount_to" value="25000")
+									input(type="hidden" name="filter_get" value="true")
+									a.ui-slider-handle.ui-state-default.ui-corner-all(href="#")
+										span#amount.number
+											|1000
+									a.ui-slider-handle.ui-state-default.ui-corner-all(href="#")
+										span#amount2.number
+											|24024165
+							p.filter-title
+								|производитель
+							ul.producer
+								li
+									input(type="checkbox", id="producer1")
+									label(for="producer1")
+										|DNS
+								li
+									input(type="checkbox", id="producer2")
+									label(for="producer2")
+										|A4Tech
+								li
+									input(type="checkbox", id="producer3")
+									label(for="producer3")
+										|CBR
+								li
+									input(type="checkbox", id="producer4")
+									label(for="producer4")
+										|Defender
+								li
+									input(type="checkbox", id="producer5")
+									label(for="producer5")
+										|Genius
+								li
+									input(type="checkbox", id="producer6")
+									label(for="producer6")
+										|Hercules
+								li
+									input(type="checkbox", id="producer7")
+									label(for="producer7")
+										|HP
+								li
+									input(type="checkbox", id="producer8")
+									label(for="producer8")
+										|Intro
+								li
+									input(type="checkbox", id="producer9")
+									label(for="producer9")
+										|Logitech
+								li
+									input(type="checkbox", id="producer10")
+									label(for="producer10")
+										|Microsoft
+							p.filter-title
+								|разрешение
+							ul.resolution
+								li
+									input(type="checkbox", id="resolution1")
+									label(for="resolution1")
+										|1280x1024
+								li
+									input(type="checkbox", id="resolution2")
+									label(for="resolution2")
+										|1280x720
+								li
+									input(type="checkbox", id="resolution3")
+									label(for="resolution3")
+										|1280x960
+								li
+									input(type="checkbox", id="resolution4")
+									label(for="resolution4")
+										|1920x1080
+								li
+									input(type="checkbox", id="resolution5")
+									label(for="resolution5")
+										|640x480
+								li
+									input(type="checkbox", id="resolution6")
+									label(for="resolution6")
+										|800x600
+							p.filter-title
+								|опции
+							ul.options
+								li
+									input(type="checkbox", id="option1")
+									label(for="option1")
+										|Микрфон
+								li
+									input(type="checkbox", id="option2")
+									label(for="option2")
+										|Подстветка
+					.items
+							a(href="#").item
+								.img-thumb
+									img(src="img/cam1.png", alt="webcam")
+								.name
+									p
+										|Веб-камера <br/>DNS-0306ABS 
+								.desc
+									p
+										|640x480 (1280x960 с драйверами), <br/>USB 2.0
+								.price
+									p 
+										|520 Р
+							a(href="#").item
+								.img-thumb
+									img(src="img/cam2.png", alt="webcam")
+								.name
+									p
+										|Веб-камера <br/>DNS-0306ABS 
+								.desc
+									p
+										|640x480 (1280x960 с драйверами), <br/>USB 2.0
+								.price
+									p 
+										|520 Р
+							a(href="#").item
+								.img-thumb
+									img(src="img/cam1.png", alt="webcam")
+								.name
+									p
+										|Веб-камера <br/>DNS-0306ABS 
+								.desc
+									p
+										|640x480 (1280x960 с драйверами), <br/>USB 2.0
+								.price
+									p 
+										|520 Р
+							a(href="#").item
+								.img-thumb
+									img(src="img/cam3.png", alt="webcam")
+								.name
+									p
+										|Веб-камера <br/>DNS-0306ABS 
+								.desc
+									p
+										|640x480 (1280x960 с драйверами), <br/>USB 2.0
+								.price
+									p 
+										|520 Р
+							a(href="#").item
+								.img-thumb
+									img(src="img/cam1.png", alt="webcam")
+								.name
+									p
+										|Веб-камера <br/>DNS-0306ABS 
+								.desc
+									p
+										|640x480 (1280x960 с драйверами), <br/>USB 2.0
+								.price
+									p 
+										|520 Р
+							a(href="#").item
+								.img-thumb
+									img(src="img/cam4.png", alt="webcam")
+								.name
+									p
+										|Веб-камера <br/>DNS-0306ABS 
+								.desc
+									p
+										|640x480 (1280x960 с драйверами), <br/>USB 2.0
+								.price
+									p 
+										|520 Р
+							a(href="#").item
+								.img-thumb
+									img(src="img/cam2.png", alt="webcam")
+								.name
+									p
+										|Веб-камера <br/>DNS-0306ABS 
+								.desc
+									p
+										|640x480 (1280x960 с драйверами), <br/>USB 2.0
+								.price
+									p 
+										|520 Р
+							a(href="#").item
+								.img-thumb
+									img(src="img/cam1.png", alt="webcam")
+								.name
+									p
+										|Веб-камера <br/>DNS-0306ABS 
+								.desc
+									p
+										|640x480 (1280x960 с драйверами), <br/>USB 2.0
+								.price
+									p 
+										|520 Р
+							a(href="#").item
+								.img-thumb
+									img(src="img/cam1.png", alt="webcam")
+								.name
+									p
+										|Веб-камера <br/>DNS-0306ABS 
+								.desc
+									p
+										|640x480 (1280x960 с драйверами), <br/>USB 2.0
+								.price
+									p 
+										|520 Р
+					ul.pagination
+						li
+							a(href="#")
+								|<
+						li
+							a(href="#")
+								|1
+						li
+							a(href="#")
+								|2
+						li
+							a(href="#")
+								|3
+						li
+							a(href="#")
+								|4
+						li
+							a(href="#")
+								|>
